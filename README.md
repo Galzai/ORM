@@ -2,7 +2,7 @@
 This is basic software intended for testing the usage of yolov3-tiny for object detection in FSAE driverless.  
 Any notes and suggestions are welcome!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1xGcDi-pW8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/_1xGcDi-pW8/0.jpg)](http://www.youtube.com/watch?v=_1xGcDi-pW8 "Yolov3-tiny cone test")
 
 ###Important notes
 Before using please note that:
