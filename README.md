@@ -4,7 +4,7 @@ Any notes and suggestions are welcome!
 
 [![](http://img.youtube.com/vi/_1xGcDi-pW8/0.jpg)](http://www.youtube.com/watch?v=_1xGcDi-pW8 "Yolov3-tiny cone test")
 
-###Important notes
+### Important notes
 Before using please note that:
 - The weights are currently trained on a minimal dataset (200 images) with only 1 class for orange cones.  
 - The intention is to expand to all relevent objects for FSAE driverless with a larger dataset for each class.  
@@ -12,19 +12,19 @@ Before using please note that:
 - I assume tracking would work better with a natively high fps video.
 - This software is currently not implemented in an FSAE car and is used mainly as a "playground" for testing at the moment. 
 
-###Regarding the cfg file
+### Regarding the cfg file
 - While training the resolution was set to 608x608.
 - While in use the resoution was set to 416x416.
 - Increasing the resolution will improve accuracy but reduce speed,
 
-###Performance
+### Performance
 - CPU: ~18 fps (Intel i7-4710HQ).
 - GPU: ~80 (!) fps (Nvidia Geforce 970M).
 
-##Setup and prerequisites
+## Setup and prerequisites
 Please read the code and make sure you understand it before building and using!
 
-** Setup **
+**Setup**
 - The darknet shared library was compiled with the use of CUDA, so if no gpu is used please [recompile darknet](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux)  
 and replace libdarknet.so (re-name the resulting darknet.so file and simply replace the one used here).
 
@@ -41,7 +41,7 @@ and replace libdarknet.so (re-name the resulting darknet.so file and simply repl
 `cd /home/"your-username"/ORM/Debug`   
 `make`
 
-** Usage **
+**Usage**
 
 - Enter `./ORM`
 
