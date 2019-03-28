@@ -1,4 +1,8 @@
-# ORM - Object Recognition Module for FSAE driverless  
+# ORM - Object Recognition Module for FSAE driverless 
+**DEPRECATED** 
+This repository is no longer maintained due to progress made on the complete FSD platform for our vehicle. 
+please refer to:[TauRD Autonomous 2019](https://github.com/Galzai/TauRD-Autonomous-2019)   
+
 This is basic software intended for testing the usage of yolov3-tiny for object detection in FSAE driverless.  
 Any notes and suggestions are welcome!
 
